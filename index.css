@@ -108,5 +108,63 @@ button:hover{
   cursor: pointer;
 }
 
+@media (max-width: 600px) {
+  .image-carasoul {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    color: white;
+    height: 75vh;
+  }
+  .image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+  }
+  #prev {
+    rotate: 90deg;
+    justify-self: center;
+  }
+  #next {
+    rotate: 90deg;
+    justify-self: center;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+
+  /* #nav-bar div:not(:first-child) {display: none;}
+  #nav-bar div.icon {
+    float: right;
+    display: block;
+  }
+
+  #nav-bar.responsive {position: relative;}
+  #nav-bar.responsive div.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  #nav-bar.responsive div {
+    float: none;
+    display: block;
+    text-align: left;
+  } */
+  
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 1.2em;
+  }
+}
+
+.icon {
+  display: none;
+  color: white;
+  cursor: pointer;
+  rotate: 180deg;
+}
+
 /* apply animation when image is switched
  */
