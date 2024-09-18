@@ -104,5 +104,9 @@ body {
   border: 8px #D74BFA solid;
 }
 
+button:hover{
+  cursor: pointer;
+}
+
 /* apply animation when image is switched
  */
