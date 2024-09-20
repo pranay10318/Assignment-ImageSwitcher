@@ -68,3 +68,9 @@ function handleCarousel(event) {
     if(imageIdx%3 == 0) img.classList.add('special-border');
     else img.classList.remove('special-border');
 }
+
+function toggleDropDown(event) {
+    console.log("adfasdfas: ", event.target);
+    let navbar = document.getElementById('nav-bar');
+    navbar.className = navbar.className === 'responsive' ? '' : 'responsive';
+}
